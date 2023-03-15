@@ -1,6 +1,6 @@
 module Main where
 
-import myfancypkg (myhello)
+import MyFancyPkg (myhello)
 
 main :: IO ()
 main = myhello

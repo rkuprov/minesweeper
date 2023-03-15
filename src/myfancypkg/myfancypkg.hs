@@ -1,4 +1,4 @@
-module myfancypkg where
+module MyFancyPkg where
     
 
 myhello :: IO ()

@@ -20,6 +20,16 @@
   (major1) == 4 && (major2) <  16 || \
   (major1) == 4 && (major2) == 16 && (minor) <= 4)
 #endif /* MIN_VERSION_base */
+/* package minesweeper-0.1.0.0 */
+#ifndef VERSION_minesweeper
+#define VERSION_minesweeper "0.1.0.0"
+#endif /* VERSION_minesweeper */
+#ifndef MIN_VERSION_minesweeper
+#define MIN_VERSION_minesweeper(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  1 || \
+  (major1) == 0 && (major2) == 1 && (minor) <= 0)
+#endif /* MIN_VERSION_minesweeper */
 
 /* tool gcc-14.0.0 */
 #ifndef TOOL_VERSION_gcc
